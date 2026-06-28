@@ -1,0 +1,7 @@
+﻿services:
+  grove.api:
+    image: grove.api
+    build:
+      context: .
+      dockerfile: Grove.Api/Dockerfile
+
